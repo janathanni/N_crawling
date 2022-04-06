@@ -2,6 +2,7 @@ import urllib.request, urllib.parse
 from bs4 import BeautifulSoup
 
 class NnewsCrawling:
+    
     def __init__(self, word : str, page_num : int = 1, header : dict = {'User-Agent' : 'Chrome/96.0.4664.110'}) -> None:
         self.page_num = page_num
         self.header = header
