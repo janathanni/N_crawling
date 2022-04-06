@@ -69,6 +69,3 @@ class NnewsCrawling:
                 ti_urls.append((ti_url.get('title'), ti_url.get('href')))
         
         return ti_urls
-
-hehe = NnewsCrawling('니니즈', 2)
-print(hehe.all_get())
